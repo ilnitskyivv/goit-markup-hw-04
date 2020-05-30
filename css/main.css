@@ -159,6 +159,8 @@ margin-right: 30px;
 }
 
 .contacts-nav__link {
+display: flex
+vertical-align: middle;
 padding-top: 32px;
 padding-bottom: 32px;
 
@@ -168,23 +170,13 @@ color: var(--secondary-text-color);
 .contacts-nav__link:hover,
 .contacts-nav__link:focus {
 color: var(--accent-color);
---color4: var(--accent-color);
+--color6: var(--accent-color);
 }
 
 .icon-contacts {
 display: inline-block;
 vertical-align: middle;
 margin-right: 10px;
-}
-
-.icon-envelope {
-width: 16px;
-height: 11.2px;
-}
-
-.icon-smartphone {
-width: 10px;
-height: 14.94px;
 }
 
 /* hero section */
@@ -427,7 +419,7 @@ width: 44px;
 .socials__link:focus {
 border-radius:50%;
 background-color: var(--accent-color);
---color3: var(--primary-white-color);
+--color4: var(--primary-white-color);
 }
 
 /* Clients section */
@@ -464,16 +456,11 @@ border: 1px solid var(--clients-logos-bg)
 .clients__rectangle:hover,
 .clients__rectangle:focus {
 border-color: #2196F3;
---color3: var(--accent-color);
+--color4: var(--accent-color);
 }
 
 .icon-clients {
-display: block;
-}
-
-.icon-client6 {
-width: 88.48px;
-height: 45.44px;
+display: inline-block;
 }
 
 /* Footer */
