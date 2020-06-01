@@ -428,13 +428,22 @@
                     </ul>
                 </div>
                 <div class="footer__right-area">
-                    <b class="uptitle footer__signup-title">Подпишитесь на рассылку</b>
-                    <a href="" class="button button__primary">
+                    <form action="#">
+                        <label for="email" class="uptitle footer__signup-title">Подпишитесь на рассылку</label>
+                        <input type="email" id="email" name="email" placeholder="E-mail" class="footer__email">
+                        <!-- <button type="submit" class="button button__primary">
                         Подписаться
                         <svg class="icon-plane" width="24" height="24">
                             <use href="./images/sprite.svg#plane"></use>
                         </svg>
-                    </a>
+                        </button> -->
+                        <a href="" class="button button__primary">
+                            Подписаться
+                            <svg class="icon-plane" width="24" height="24">
+                                <use href="./images/sprite.svg#plane"></use>
+                            </svg>
+                        </a>
+                    </form>
                 </div>
             </div>
             <p lang="en" class="footer__copyright">2020 | Developed by GoIT Students</p>
